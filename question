@@ -1,0 +1,7 @@
+1. Running time will be changed when I used different cores and executors. The more clusters was used the shower KMeans runtime will be.
+
+2. I test MLlib K-means. When I use 10 cluster and implenment on my local mechine it will take 2-3 mins. However, When I use my own program it will take more than 15 mins.
+
+3. Each data poit is assigned to a single prototype. As long as the cheap and expensive distance metrics are suffciently similar that the nearest prototype(as calculated with the cheap distance metric).
+
+4. Compute the cos distance instead of Euclidean distance will make the program more efficent
